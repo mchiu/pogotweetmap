@@ -4,6 +4,7 @@
     <title>Pokemon Map from Twitter</title>
     <style>
         body { width: 800px; }
+    </style>
 </head>
 
 <body>
