@@ -17,7 +17,7 @@ material, I came up with various demo Google maps with fake data.
 
 <p>
 I will be teaching the class again, but this time I will have more interesting Google
-Maps. Rather than using fake data again, I lots of real Pokemon data sourced from Twitter. 
+Maps. Rather than using fake data again, I have lots of real Pokemon data sourced from Twitter. 
 Hopefully this time the students will be more engaged and will see the immediate usefulness
 of what they are being taught.</p>
 
