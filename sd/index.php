@@ -96,7 +96,7 @@
                     icon: {
                         labelOrigin: new google.maps.Point(5, 25),
                         url: 'http://maps.google.com/mapfiles/ms/icons/' + color + '-dot.png',
-                        scaledSize: new google.maps.Size(16, 162),
+                        scaledSize: new google.maps.Size(16, 16),
                         origin: new google.maps.Point(0, 0),
                         anchor: new google.maps.Point(8, 16)
                     },  
