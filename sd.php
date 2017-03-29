@@ -1,3 +1,4 @@
+<?php #not really php ... ?>
 <!DOCTYPE html>
 <html>
   <head>
