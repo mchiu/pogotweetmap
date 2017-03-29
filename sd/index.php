@@ -62,14 +62,6 @@
             });
 
             for (var pokemon in comics) {
-
-                var image = {
-                    url: "http://155.94.189.29/pg_images/vertical_sprites.png",
-                    size: new google.maps.Size(40, 50), // scaled size
-                    origin: new google.maps.Point(0, 50*(parseInt(comics[pokemon].dex) - 1)), // origin
-                    anchor: new google.maps.Point(20,25) // anchor
-                };
-
                 var tth = new Date(comics[pokemon].tth);
                 var diff = Math.abs(new Date() - tth)/60000;
             
@@ -104,7 +96,7 @@
                     icon: {
                         labelOrigin: new google.maps.Point(5, 25),
                         url: 'http://maps.google.com/mapfiles/ms/icons/' + color + '-dot.png',
-                        size: new google.maps.Size(32, 32),
+                        scaledSize: new google.maps.Size(32, 32),
                         origin: new google.maps.Point(0, 0),
                         anchor: new google.maps.Point(8, 16)
                     },  
