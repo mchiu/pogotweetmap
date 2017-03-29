@@ -1,3 +1,4 @@
+<?php #nothing ?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -102,11 +103,10 @@
                     },
                     icon: {
                         labelOrigin: new google.maps.Point(5, 25),
-                        url: 'pg_images/_' + color + '.png',
-                        size: new google.maps.Size(22, 40),
-                        scaledSize: new google.maps.Size(11, 20),
+                        url: 'http://maps.google.com/mapfiles/ms/icons/' + color + '-dot.png',
+                        size: new google.maps.Size(32, 32),
                         origin: new google.maps.Point(0, 0),
-                        anchor: new google.maps.Point(5, 20),
+                        anchor: new google.maps.Point(8, 16)
                     },  
                       html: "<span class='pogo_name'><a href='" + gmaplink + "' target='_blank'>" + comics[pokemon].name + "</a></span> Expires: <strong>" + pad(tth.getHours(), 2) + ":" + pad(tth.getMinutes(), 2) + ":" + pad(tth.getSeconds(), 2) + "; " + Math.floor(diff) + "min " + Math.floor(60*(diff - Math.floor(diff))) + "sec left</strong><br />" + comics[pokemon].att + "<br /><a href='" + amaplink + "' target='_blank'>Apple Map link</a>&nbsp;&nbsp;" + comics[pokemon].lat + "," + comics[pokemon].lng
                 });
